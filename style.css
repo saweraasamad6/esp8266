@@ -1,0 +1,92 @@
+body {
+    margin 0;
+    font-family Arial, sans-serif;
+    background #f4f6f9;
+}
+
+ Navbar 
+.navbar {
+    background #1e293b;
+    color white;
+    padding 15px 20px;
+    font-size 20px;
+}
+
+ Layout 
+.container {
+    display flex;
+}
+
+ Sidebar 
+.sidebar {
+    width 220px;
+    background #0f172a;
+    min-height 100vh;
+    color white;
+    padding-top 20px;
+}
+
+.sidebar a {
+    display block;
+    color #cbd5f5;
+    padding 12px 20px;
+    text-decoration none;
+}
+
+.sidebar ahover {
+    background #1e293b;
+    color white;
+}
+
+ Main Content 
+.main {
+    flex 1;
+    padding 20px;
+}
+
+ Cards 
+.cards {
+    display grid;
+    grid-template-columns repeat(auto-fit, minmax(220px, 1fr));
+    gap 20px;
+}
+
+.card {
+    background white;
+    padding 20px;
+    border-radius 10px;
+    box-shadow 0 4px 8px rgba(0,0,0,0.1);
+    text-align center;
+}
+
+.card h2 {
+    margin 0;
+    font-size 18px;
+    color #334155;
+}
+
+.value {
+    font-size 32px;
+    margin-top 10px;
+    color #0f172a;
+}
+
+ Chart Placeholder 
+.chart {
+    margin-top 30px;
+    background white;
+    height 250px;
+    border-radius 10px;
+    display flex;
+    align-items center;
+    justify-content center;
+    color #64748b;
+    font-size 18px;
+    box-shadow 0 4px 8px rgba(0,0,0,0.1);
+}
+
+ Status 
+.status {
+    color #22c55e;
+    font-size 14px;
+}

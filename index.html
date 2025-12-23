@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ESP8266 Sensor Dashboard</title>
+
+    <!-- CSS File -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="navbar">
+    ESP8266 Sensor Dashboard
+    <span class="status"> ● Online</span>
+</div>
+
+<div class="container">
+    <div class="sidebar">
+        <a href="#">Dashboard</a>
+        <a href="#">Sensors</a>
+        <a href="#">Graphs</a>
+        <a href="#">Settings</a>
+    </div>
+
+    <div class="main">
+        <div class="cards">
+            <div class="card">
+                <h2>Temperature</h2>
+                <div class="value" id="temp">26 °C</div>
+            </div>
+
+            <div class="card">
+                <h2>Humidity</h2>
+                <div class="value" id="humidity">60 %</div>
+            </div>
+
+            <div class="card">
+                <h2>Gas Level</h2>
+                <div class="value" id="gas">Normal</div>
+            </div>
+
+            <div class="card">
+                <h2>Light</h2>
+                <div class="value" id="light">Bright</div>
+            </div>
+        </div>
+
+        <div class="chart">
+            Sensor Graph Area (Chart.js later)
+        </div>
+    </div>
+</div>
+
+<!-- JS File -->
+<script src="script.js"></script>
+</body>
+</html>
